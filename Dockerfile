@@ -1,4 +1,4 @@
-FROM prom/prometheus:v2.14.0
+FROM prom/prometheus:v2.15.2
 USER root
 COPY new-entry-point.sh /new-entry-point.sh
 RUN chmod +x /new-entry-point.sh
